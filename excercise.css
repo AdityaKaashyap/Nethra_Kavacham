@@ -1,0 +1,29 @@
+.fixed-size-video {
+    width: 640px;
+    height: 360px;
+    padding: 250px;
+  }
+
+  .responsive-video {
+    width: 100%;
+    height: auto;
+  }
+
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+  }
+
+  .aspect-ratio-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 50%; */
+  }
+
+  .fullscreen-video {
+    width: 100vw;
+    height: 100vh;
+  }
